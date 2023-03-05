@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta >
+        <meta>
+        <meta>
+        <title>Let me make this easy for you.</title>
+        <style>
+           
+            body {
+                background-color: #008CD2;
+                text-align: center;
+                Font-family: Courier;
+
+            }
+            h1 {
+                color: black;
+                text-align: left;
+                font-family:'Courier New', Courier, monospace;
+                
+            
+            }
+            fieldset { 
+                background-color: ghostwhite;
+                border-style:ridge ;
+            }
+            .logo {
+                position: absolute;
+                bottom: -15rem;
+                width: auto 100%;
+                z-index: 3;
+            }
+            img { 
+                display: flex;
+                position: relative;
+                top: 0%;
+                margin: auto;
+                width: 25%;
+                height: auto;
+                border-radius: 50%;
+            }
+            
+            .my-name {
+               font-size: 23px;
+
+            }
+           
+
+           
+            .signature {
+                display: flex;
+                position: relative;
+                align-self: center;
+                width: 50%;
+                height: 25%;
+                padding-top: 10px;
+                min-width: 400px;
+                max-width: 450px;
+                min-height: 240px;
+                border-color: transparent;
+                margin: auto;
+            }
+            .letter {
+                margin: auto;
+                
+                width: auto;
+                max-width: 500px;
+                padding-top: 3rem;
+            }
+            .thanks {
+                display: flex;
+            
+                padding-left: 2rem;
+                margin: auto;
+                text-align: center;
+                
+            }
+            .radio {
+                margin-bottom: 2rem;
+                display:inline-block;
+                position: relative;
+                
+                
+            
+            }
+            #MAYBE, #MAYBE-label {
+                padding-left: 3px;
+            }
+
+            #NO, #NO-label, #YES ,#YES-label {
+                padding-left: 1rem;
+            
+            }
+            .wrong-answer:hover {
+                display: none;
+            }
+        
+          #ClickYES {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            margin-top: 3rem;
+          }
+          .options {
+            display: flex;
+          }
+       
+        </style>
+    </head>
+    <body>
+        
+        <div class="letter">
+        <fieldset class="letter">
+            <h1>Dear Cindy,</h1>
+        <p>I just wanted to connect and follow up with you about the Sysco Sales Representative position. <br><br> I am very interested in the position and would love the opportunity to discuss the next steps with you.
+    </p>
+    <p> To keep things simple and straightforward, I created this easy selection menu to help you respond:</p>
+        <fieldset class="radio" id="ClickYES">Do you want to hire me: <br>
+            <div class="options"><label for="YES" id="YES-label" selected>YES</label><input type="radio" class="answer" value="YES" name="answer" id="YES">
+            <div class="wrong-answer"><label for="NO" id="NO-label">NO</label><input type="radio" id="NO" class="answer invalid" value="NO" name="answer" disabled>
+            <label for="MAYBE" id="MAYBE-label">MAYBE</label><input type="radio" id="MAYBE" class="answer" value="MAYBE" name="answer" id="MAYBE" disabled>
+            </div></div></fieldset>
+
+        <fieldset class="signature"><div class="photo">
+            <p class="thanks">Thanks for your time and consideration,</p>
+            <p class="my-name">Bobbie VanBatenburg</p><img src="https://iambobbiev.files.wordpress.com/2023/03/07c0ca60-f70e-4b7d-985c-d83bd365a530.jpeg?resize=320%2C320">
+        </div></fieldset></p>
+        </fieldset>
+    </div>
+    
+    </body>
+</html>
